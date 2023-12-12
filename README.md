@@ -25,7 +25,30 @@ TODO: Add the error here followed by the line of code you fixed.
 Fixed `quote.router.js` line 28: switch `app` to `router`. _This is the solution to the first bug._
 
 ### Bug 1
+Server JS line 7 changed port to 5001 as per the comments
+### Bug 2
+event.preventDefault() added to index.html form
+### Bug 3
+added module.exports = router; to quote.router.js
+### Bug 4
+changed location of res.send
+### Bug 5
+//changed from {} to []
+let quoteList = [];
+### Bug 6
+// changed to listen on /quotes
+// router.post '/quotes'
+### Bug 7
+ //changed to quoteList from quote(s)List
+    quoteList.push(quoteToAdd);
+### Bug 8
+ <!-- Stylesheet added /--> to HTML
+### Bug 9
 
+### Bug 10
+
+### Bug 11?
+https://fonts.google.com/specimen/Roboto instead of the incorrect URL in index.html
 ...
 
 ## Extra Practice (Optional)
